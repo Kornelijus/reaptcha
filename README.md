@@ -19,12 +19,13 @@ A clean, modern and simple React wrapper for [Google reCAPTCHA](https://develope
 
 I've been using other React wrappers for reCAPTCHA like [react-recaptcha](https://github.com/appleboy/react-recaptcha) or [react-google-recaptcha](https://github.com/dozoisch/react-google-recaptcha) but unfortunately both of them provide a non-react way (declaring the callbacks outside React components, not inside them) to handle all the reCAPTCHA callbacks which didn't feel clean and I didn't like this approach personally.
 
-This is why I've decided to give it a try to create a cleaner approach and this is the result.
+This is why I've decided to give it a try to create a cleaner, more modern and intuitive approach. And here's the result!
 
-What are the advantages?
+## Features
 
-- **All callbacks in your React component**
-- Inject the reCAPTCHA script automatically (this is only available in `react-google-recaptcha`)
+- ES6 class function callback support ⚛️
+- Automatic reCAPTCHA script injection 💃
+- SSR ready 🚀
 
 ## Installation
 
